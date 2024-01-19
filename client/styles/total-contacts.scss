@@ -1,0 +1,151 @@
+.total-contacts-page {
+  display: flex;
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 231px;
+    height: 1364px;
+    background: #cef3ff;
+    .upper-sidebar {
+      .logo {
+        padding: 13px 98px 67px 50px;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        font-family: "Titillium Web";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 61px;
+        color: #0884ff;
+      }
+      .dashboard {
+        padding: 0px 0px 35px 0px;
+        display: flex;
+        justify-content: center;
+      }
+      .total-contacts-button {
+        padding: 19px 16px;
+        display: flex;
+        justify-content: center;
+        max-width: 183px;
+        max-height: 65px;
+        background: #2da5fc;
+        border-radius: 6px;
+        font-family: "Titillium Web";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #ffffff;
+        opacity: 0.8;
+      }
+    }
+
+    .lower-sidebar {
+      .log-out {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        font-family: "Titillium Web";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #000000;
+        opacity: 0.8;
+      }
+    }
+  }
+  .main-section {
+    width: 1497px;
+
+    .total-contacts-sections {
+      .header-section {
+        border-bottom: 2px solid #eaeaea;
+        height: 98px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .total-contacts {
+          cursor: pointer;
+          font-family: "Titillium Web";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 32px;
+          line-height: 49px;
+          color: #454545;
+          opacity: 0.8;
+        }
+        .search-bar {
+          padding: 11px 19px;
+          background: #f2f2f2;
+          border-radius: 6px;
+          display: flex;
+          align-self: center;
+          .search {
+          width: 300px;
+            border: none;
+            background: #f2f2f2;
+          }
+        }
+      }
+    }
+    .content-wrapper {
+      .content {
+        padding: 25px;
+        display: flex;
+        justify-content: space-between;
+        // flex-direction: column;
+        .new-contact-btn {
+          padding: 7px 20px;
+          background: #ffffff;
+          box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+          font-family: "Titillium Web";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 27px;
+          color: #000000;
+          opacity: 0.8;
+          border: none;
+          cursor: pointer;
+        }
+        .delete-btn {
+          padding: 7px 20px;
+          background: #ffffff;
+          box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+          font-family: "Titillium Web";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 27px;
+          color: #000000;
+          opacity: 0.8;
+          border: none;
+          cursor: pointer;
+        }
+      }
+      // .table {
+      //   .head {
+      //     // display: flex;
+      //     // justify-content: space-between;
+      //     font-family: "Titillium Web";
+      //     font-style: normal;
+      //     font-weight: 100;
+      //     font-size: 20px;
+      //     line-height: 30px;
+      //     color: #38322c;
+      //     opacity: 0.8;
+      //   }
+      //   .list-of-total-cont {
+      //     // display: flex;
+      //     // justify-content: space-between;
+      //   }
+      // }
+    }
+  }
+}

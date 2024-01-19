@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "web": "yarn workspace client dev",
+    "server": "node server/ace serve --watch"
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
+  }
+}

@@ -1,0 +1,109 @@
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
+
+.login-outer-page {
+  max-width: 1728px;
+  max-height: 1117px;
+  background: #f5f5f5;
+  padding: 100px;
+  .login-inner-page {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+
+    background: #cef3ff;
+    // opacity: 0.26;
+    box-shadow: 0px 4px 22px #b2dfff;
+    border-radius: 20px;
+    .logo-title {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      letter-spacing: 0.25px;
+      color: #7d8cc4;
+    }
+    .credentials-title {
+      padding: 53px 0px 76px 0px;
+      justify-content: center;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 22px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.25px;
+      color: #000000;
+      opacity: 0.6;
+    }
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      .mail-wrap {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        .mailid {
+          padding-left: 20px;
+          min-width: 450px;
+          height: 54px;
+          border: none;
+        }
+      }
+      .password-wrap {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        .password {
+          padding-left: 20px;
+          margin-top: 34px;
+          // margin-bottom: 56px;
+          min-width: 450px;
+          height: 54px;
+          border: none;
+        }
+      }
+      .confirm-password {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        .confirm-password {
+          margin-top: 26px;
+          padding-left: 20px;
+          min-width: 450px;
+          height: 54px;
+          justify-content: center;
+          align-items: center;
+          border: none;
+          color: #7d8cc4;
+        }
+      }
+      .Signup {
+        margin-top: 34px;
+        margin-bottom: 44px;
+        border-radius: 5px;
+        min-width: 450px;
+        height: 54px;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        cursor: pointer;
+        letter-spacing: 0.25px;
+        color: #ffffff;
+        background: #7d8cc4;
+      }
+    }
+  }
+}

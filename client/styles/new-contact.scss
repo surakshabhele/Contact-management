@@ -1,0 +1,58 @@
+.new-contact-page {
+  padding: 20px 0px 71px 20px;
+  .new-contact {
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 49px;
+    color: #454545;
+    opacity: 0.8;
+  }
+  .incoming-new-data {
+    display: flex;
+    flex-direction: column;
+    .label-name {
+        padding: 24px 0px 20px 0px;
+      font-family: "Titillium Web";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      color: #38322c;
+      opacity: 0.8;
+    }
+    .name {
+        margin-bottom: 20px;
+      max-width: 450px;
+      height: 54px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.25px;
+      color: #000000;
+      opacity: 0.4;
+    }
+    .create {
+       cursor: pointer;
+      max-width: 208px;
+      background: #7d8cc4;
+      border-radius: 5px;
+      border: none;
+      padding: 24px 65px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 18px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.25px;
+      color: #ffffff;
+    }
+  }
+}
